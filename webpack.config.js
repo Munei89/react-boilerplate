@@ -6,5 +6,17 @@ module.exports = {
     output: {
         path: path.join(__dirname, 'public'),
         filename: 'main.bundle.js'
+    },
+    module: {
+        rules: [
+            {
+                test: /\.js$/,
+                loader:'babel-loader',
+                exclude: /node_modules/,
+                options: {
+                    presets: ['@babel/preset-env']
+                }
+            }
+        ]
     }
 }
