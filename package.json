@@ -2,10 +2,19 @@
   "name": "javascript-tooling-with-react-and-webpack",
   "version": "0.1.0",
   "description": "React-Boilerplate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Munei89/react-boilerplate"
+  },
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "FlintDesignz",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.0"
+  }
 }
