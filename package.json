@@ -1,0 +1,11 @@
+{
+  "name": "javascript-tooling-with-react-and-webpack",
+  "version": "0.1.0",
+  "description": "React-Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "FlintDesignz",
+  "license": "ISC"
+}
