@@ -22,6 +22,21 @@ module.exports = {
       {
         test: /\.scss$/,
         use: ["style-loader", "css-loader", "sass-loader", "postcss-loader"]
+      },
+      {
+        test: /\.svg$/,
+        use: "file-loader"
+      },
+      {
+        test: /\.png$/,
+        use: [
+          {
+            loader: "url-loader",
+            options: {
+              mimetype: "image/png"
+            }
+          }
+        ]
       }
     ]
   },
